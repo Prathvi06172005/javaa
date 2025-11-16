@@ -25,7 +25,7 @@ public class Leaky {
             if(a[i]!=0)
             {
                 if(buck_rem+a[i]>buck_cap)
-                    recv=1;
+                    recv=-1;
                 else{
                     recv=a[i];
                     buck_rem+=a[i];
